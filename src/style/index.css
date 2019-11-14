@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+i,
+b {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.wrapper {
+  width: 1228px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  height: 40px;
+  background: #666;
+  line-height: 40px;
+}
+
+header .left > li {
+  float: left;
+}
+
+header .right > li {
+  float: left;
+}
+
+header a {
+  color: #ccc;
+  font-size: 13px;
+  margin-right: 20px;
+}
+
+.wechat-1 {
+  display: none;
+}
+
+.wechat-1:hover {
+  display: block;
+}
