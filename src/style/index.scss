@@ -9,6 +9,14 @@ li {
     list-style: none
 }
 
+.clear:after {
+    content: "";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
 i,
 b {
     font-style: normal;
@@ -41,17 +49,395 @@ header {
     }
     .right>li {
         float: left;
+        border-right: 0.3px solid #666;
+        position: relative;
     }
-    a {
+    .right>li>a {
         color: #ccc;
-        font-size: 13px;
-        margin-right: 20px;
+        font-size: 12px;
+        &:hover {
+            color: #fff;
+        }
+    }
+    .right>li>span {
+        color: rgb(204, 204, 204);
+        margin-right: 10px;
+    }
+    .left>li>a {
+        color: #ccc;
+        font-size: 12px;
+        margin-right: 30px;
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+
+.wechat {
+    position: relative;
+    &:hover {
+        .wechat-1 {
+            display: block;
+        }
     }
 }
 
 .wechat-1 {
     display: none;
-    &:hover {
+    position: absolute;
+    top: 40px;
+    left: 1050px;
+}
+
+.nav {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    a {
+        color: #666;
+    }
+    .logo {
+        margin: 0 20px;
+    }
+    .left-nav:after {
+        content: ".";
+        clear: both;
         display: block;
+        height: 0;
+        overflow: hidden;
+        visibility: hidden;
+    }
+    .left-nav li {
+        float: left;
+        a {
+            margin: 0 10px;
+            display: block;
+            &:hover {
+                border-bottom: 3px solid red
+            }
+        }
+    }
+    .left-nav li:hover .sub-nav {
+        display: block;
+    }
+    .right-nav:after {
+        content: ".";
+        clear: both;
+        display: block;
+        height: 0;
+        overflow: hidden;
+        visibility: hidden;
+    }
+    .right-nav li {
+        float: left;
+        a {
+            margin: 0 10px;
+        }
+    }
+    .rihgt-nav input {
+        float: left;
+        border-left: 1px solid #ccc;
+    }
+    .left-nav {
+        position: relative;
+    }
+    .sub-nav {
+        height: 210px;
+        line-height: 16px;
+        // display: none;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        .red {
+            color: red;
+        }
+    }
+}
+
+// .show {
+//     padding-left: 20px;
+// }
+.show div {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.tv {
+    margin: 30px;
+    line-height: 40px;
+    position: relative;
+    span {
+        font-weight: 800;
+        font-size: 22px;
+        border-left: 4px solid red;
+        margin: 0 20px;
+        color: #666;
+    }
+    .wb {
+        &:hover {
+            color: red
+        }
+    }
+    .gd {
+        color: red;
+        position: absolute;
+        right: 20px;
+        top: 0px;
+    }
+}
+
+.commodity {
+    width: 100%;
+    height: 620px;
+}
+
+.nr {
+    margin: 0 40px;
+}
+
+.list {
+    list-style: none;
+    width: 960px;
+    display: inline-block;
+    position: absolute;
+    .item {
+        float: left;
+        width: 260px;
+        height: 270px;
+        margin: 30px;
+        transition: all .5s;
+        a {
+            text-decoration: none;
+            display: block;
+        }
+    }
+    .item:hover {
+        box-shadow: 0 0 5px 3px #ccc;
+        position: relative;
+        top: -5px;
+    }
+}
+
+.p-price {
+    color: red;
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+    .yuan {
+        font-size: 12px;
+    }
+}
+
+.news {
+    width: 100%;
+    padding: 30px;
+    overflow: hidden;
+    a {
+        &:hover {
+            color: red;
+        }
+    }
+    li {
+        width: 300px;
+        height: 320px;
+        margin: 10px;
+        float: left;
+        background: #f3f3f3;
+        font-size: 14px;
+        position: relative;
+        i {
+            color: #fff;
+            background: blue;
+            // margin: 0 3px;
+            padding: 0 4px;
+        }
+        b {
+            font-weight: normal;
+            padding-left: 10px;
+        }
+        span {
+            font-size: 12px;
+        }
+        .look {
+            font-size: 12px;
+            position: absolute;
+            left: 10px;
+            bottom: 0;
+        }
+    }
+}
+
+.find {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 40px 0;
+    a {
+        font-size: 14px;
+        &:hover {
+            color: red;
+        }
+    }
+}
+
+.foot-top {
+    width: 100%;
+    height: 100px;
+    background: #f0f0f0;
+    li {
+        width: 25%;
+        float: left;
+        text-align: center;
+        line-height: 80px;
+        i {
+            font-size: 30px;
+        }
+        span {
+            font-size: 20px;
+        }
+    }
+}
+
+.help {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+.help dl {
+    float: left;
+    font-size: 14px;
+    margin: 20px 40px;
+    text-align: center;
+    line-height: 20px;
+    dt {
+        margin-bottom: 10px;
+    }
+    .phone {
+        color: red;
+        font-size: 20px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .grey {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .kf {
+        border: 2px solid red;
+        color: red;
+        padding: 4px 20px;
+        &:hover {
+            background: red;
+            color: #fff;
+        }
+    }
+}
+
+.foot-bot {
+    width: 100%;
+    padding: 25px 0;
+    font-size: 12px;
+    color: #999;
+    background-color: #e3e3e3;
+    position: relative;
+    li {
+        float: left;
+        margin: 10px 10px;
+        padding: 0 10px;
+        border-right: 1px solid #999;
+    }
+}
+
+.gsba {
+    text-align: center;
+    width: 100%;
+}
+
+.language {
+    position: absolute;
+    right: 40px;
+    top: 50px;
+}
+
+.fix-nav {
+    height: 100px;
+    width: 50px;
+    position: fixed;
+    right: 0;
+    top: 70%;
+    text-align: center;
+    line-height: 20px;
+    border: 1px solid #ccc;
+    border-right: 0;
+    padding-top: 10px;
+    background: rgba(255, 255, 255, .6);
+    z-index: 200;
+    i {
+        font-size: 20px;
+    }
+    span {
+        font-size: 14px;
+    }
+}
+
+.wechat {
+    position: relative;
+    .wechat-1 {
+        width: 100px;
+        height: 140px;
+        background: #fff;
+        display: none;
+        position: absolute;
+        left: -10px;
+        bottom: -140px;
+        z-index: 999;
+        text-align: center;
+        font-size: 12px;
+        line-height: 14px;
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+    &:hover .wechat-1 {
+        display: block;
+    }
+}
+
+.sub-nav {
+    overflow: hidden;
+    width: 100%;
+    height: 230px;
+    z-index: 999;
+    position: absolute;
+    top: 95px;
+    left: 0px;
+    background: #fff;
+    display: none;
+    a {
+        width: 20%;
+        height: 220px;
+        float: left;
+        font-size: 14px;
+        text-align: center;
+        line-height: 20px;
+    }
+}
+
+.p-title {
+    font-size: 14px;
+    text-align: center;
+}
+
+.p-pic {
+    img {
+        display: block;
+        margin: 0 auto;
     }
 }

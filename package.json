@@ -8,5 +8,21 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "requirejs": "^2.3.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limiao000/tcl.com.git"
+  },
+  "bugs": {
+    "url": "https://github.com/limiao000/tcl.com/issues"
+  },
+  "homepage": "https://github.com/limiao000/tcl.com#readme"
 }
