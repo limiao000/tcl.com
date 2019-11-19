@@ -99,6 +99,7 @@ header .left > li > a:hover {
   height: 50px;
   line-height: 50px;
   font-size: 14px;
+  overflow: hidden;
 }
 
 .nav a {
@@ -176,4 +177,349 @@ header .left > li > a:hover {
 .show div {
   display: inline-block;
   margin: 10px 20px;
+}
+
+.nav-1 {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background: #f0f0f0;
+  float: left;
+}
+
+.nav-1 > span {
+  color: #666;
+  margin-left: 50px;
+}
+
+.product {
+  width: 100%;
+  height: 700px;
+  background: #fff;
+  position: relative;
+}
+
+.product-1 {
+  width: 1200px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+.product-2 {
+  float: right;
+  position: absolute;
+  top: 100px;
+  right: 50px;
+  overflow: hidden;
+}
+
+.purc-item {
+  border-bottom: 1px solid #999;
+  margin-top: 15px;
+}
+
+.purc-item > p {
+  width: 80%;
+  line-height: 19px;
+  color: #999;
+}
+
+.purc-item > span {
+  color: #999;
+}
+
+.price {
+  margin-top: 30px;
+}
+
+.price > span {
+  color: red;
+  border-bottom: 1px solid #999;
+  font-weight: 700;
+}
+
+.serie {
+  color: #999;
+  margin-top: 30px;
+}
+
+.options {
+  margin-top: 30px;
+}
+
+.options > span {
+  width: 20%;
+  margin: 10px 8px 0 0;
+  overflow: hidden;
+  padding: 0 15px;
+  display: inline-block;
+  height: 50px;
+  border: 1px solid #999;
+  text-align: center;
+  line-height: 50px;
+}
+
+.num {
+  height: 50px;
+  width: 80px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.add {
+  margin-top: 100px;
+}
+
+.add > a {
+  width: 25%;
+  padding: 0 15px;
+  display: inline-block;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background: red;
+  color: #fff;
+}
+
+.product-1 > img {
+  width: 440px;
+  height: 440px;
+  margin: 0 auto;
+  line-height: 440px;
+  display: block;
+  border-bottom: 1px solid #999;
+}
+
+.product-1 > .img-list {
+  width: 440px;
+  height: 100px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.product-1 > .img-list > li {
+  float: left;
+  width: 60px;
+  height: 60px;
+  border-radius: 0;
+  margin: 0 7px;
+  cursor: pointer;
+  border: 2px solid #ccc;
+  overflow: hidden;
+}
+
+.product-1 > .img-list > li > img {
+  width: 60px;
+  height: 60px;
+}
+
+.product > h1 {
+  display: block;
+  font-weight: bold;
+}
+
+.nav-2 {
+  width: 100px;
+  height: 80px;
+}
+
+.line {
+  width: 1500px;
+  border: 1px solid #999;
+}
+
+.product-1 li {
+  float: left;
+  margin-top: 10px;
+}
+
+.product-1 li :hover {
+  color: red;
+}
+
+.product-1 :first-child {
+  padding-left: 190px;
+}
+
+.product-1 > li > a {
+  color: #666;
+}
+
+.product-pic {
+  text-align: center;
+  margin-top: -30px;
+}
+
+.foot-top {
+  width: 100%;
+  height: 100px;
+  background: #f0f0f0;
+}
+
+.foot-top li {
+  width: 25%;
+  float: left;
+  text-align: center;
+  line-height: 80px;
+}
+
+.foot-top li i {
+  font-size: 30px;
+}
+
+.foot-top li span {
+  font-size: 20px;
+}
+
+.help {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  background-color: #f0f0f0;
+}
+
+.help dl {
+  float: left;
+  font-size: 14px;
+  margin: 20px 40px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.help dl dt {
+  margin-bottom: 10px;
+}
+
+.help dl .phone {
+  color: red;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.help dl .grey {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.help dl .kf {
+  border: 2px solid red;
+  color: red;
+  padding: 4px 20px;
+}
+
+.help dl .kf:hover {
+  background: red;
+  color: #fff;
+}
+
+.foot-bot {
+  width: 100%;
+  padding: 25px 0;
+  font-size: 12px;
+  color: #999;
+  background-color: #e3e3e3;
+  position: relative;
+}
+
+.foot-bot li {
+  float: left;
+  margin: 10px 10px;
+  padding: 0 10px;
+  border-right: 1px solid #999;
+}
+
+.gsba {
+  text-align: center;
+  width: 100%;
+}
+
+.language {
+  position: absolute;
+  right: 40px;
+  top: 50px;
+}
+
+.fix-nav {
+  height: 100px;
+  width: 50px;
+  position: fixed;
+  right: 0;
+  top: 70%;
+  text-align: center;
+  line-height: 20px;
+  border: 1px solid #ccc;
+  border-right: 0;
+  padding-top: 10px;
+  background: rgba(255, 255, 255, 0.6);
+  z-index: 200;
+}
+
+.fix-nav i {
+  font-size: 20px;
+}
+
+.fix-nav span {
+  font-size: 14px;
+}
+
+.wechat {
+  position: relative;
+}
+
+.wechat .wechat-1 {
+  width: 100px;
+  height: 140px;
+  background: #fff;
+  display: none;
+  position: absolute;
+  left: -10px;
+  bottom: -140px;
+  z-index: 999;
+  text-align: center;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.wechat .wechat-1 img {
+  width: 100px;
+  height: 100px;
+}
+
+.wechat:hover .wechat-1 {
+  display: block;
+}
+
+.sub-nav {
+  overflow: hidden;
+  width: 100%;
+  height: 230px;
+  z-index: 999;
+  position: absolute;
+  top: 95px;
+  left: 0px;
+  background: #fff;
+  display: none;
+}
+
+.sub-nav a {
+  width: 20%;
+  height: 220px;
+  float: left;
+  font-size: 14px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.p-title {
+  font-size: 14px;
+  text-align: center;
+}
+
+.p-pic img {
+  display: block;
+  margin: 0 auto;
 }

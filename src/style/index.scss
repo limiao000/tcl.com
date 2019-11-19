@@ -436,7 +436,7 @@ header {
 }
 
 .p-pic {
-    img {
+    img.lazy {
         display: block;
         margin: 0 auto;
     }

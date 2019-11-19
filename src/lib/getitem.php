@@ -2,7 +2,7 @@
     include('./conn.php');
 
     $id = $_REQUEST['id'];
-
+  
     $sql = "select * from product where id='$id'";
 
     $res = $mysqli->query($sql);
