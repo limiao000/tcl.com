@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TCL用户中心-注册TCL账号</title>
+    <link rel="stylesheet" href="../style/register.css">
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery.md5.js"></script>
+    <script src="../js/lib/register.js"></script>
+
+</head>
+
+<body>
+    <header class="clear">
+        <div class="logo left">
+            <a href="index1.html"><img src="../images/logo.png" alt=""></a>
+
+        </div>
+
+        <h1 class="left">
+            TCL账号登录
+        </h1>
+    </header>
+    <div class="main">
+        <div class="register-box">
+            <div id="form" class="form">
+                <p>注册TCL账号</p>
+                <input type="text" name="userName" id="userName" placeholder="用户名" maxlength="16" min="6"><br>
+                <span id="result-1" style="margin-left: 20px;font-size:12px;"></span><br>
+                <input type="password" name="userPassword" id="userPassword" placeholder="登录密码" maxlength="16" min="6"><br>
+                <span id="result-2" style="margin-left: 20px;font-size:12px;"></span><br>
+                <input type="text" name="userTel" id="userTel" placeholder="手机号码" pattern="[0-9]" maxlength="11" min="6"><br>
+                <span id="result-3" style="margin-left: 20px;font-size:12px;"></span><br>
+                <input type="checkbox" id="checkbox" checked><a href="#" class="tk">已阅读并同意用户服务条款和隐私政策</a><br><br>
+                <input type="button" id="btn" value="注册" disabled="disabled">
+            </div>
+            <!-- <input type="submit " id="btn " value="注册 "> -->
+            <!-- </form> -->
+            <div class="register-bot clear ">
+                <a href="login.html " class="left ">已有账号直接登陆</a>
+                <a href="login.html " class="right " style="color: red ">推荐第三方登录</a>
+            </div>
+
+
+        </div>
+    </div>
+    <footer>
+        <p class="foot-nav clear ">
+            <a href="# ">关于TCL</a>
+            <a href="# ">社会责任</a>
+            <a href="# ">投资者关系</a>
+            <a href="# ">新闻中心</a>
+            <a href="# " style="border: 0 ">经销商之家</a>
+        </p>
+        <p class="ba ">©2010-2016 TCL CORPORATION All Rights Reserved. <a href="# ">使用条款</a>TCL集团股份有限公司版权所有 粤ICP备05040863号</p>
+    </footer>
+
+
+
+</body>
+
+</html>

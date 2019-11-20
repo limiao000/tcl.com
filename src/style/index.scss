@@ -219,6 +219,25 @@ header {
     }
 }
 
+// .list {
+//     list-style: none;
+//     overflow: hidden;
+//     margin: 50px;
+// }
+// .list>.item {
+//     float: left;
+//     width: 250px;
+//     margin: 20px;
+//     transition: margin-top .3s;
+// }
+// .list>.item>a {
+//     text-decoration: none;
+//     display: block;
+// }
+// .list>.item:hover {
+//     box-shadow: 3px 3px 3px #ccc;
+//     margin-top: 17px;
+// }
 .p-price {
     color: red;
     text-align: center;
@@ -436,7 +455,7 @@ header {
 }
 
 .p-pic {
-    img.lazy {
+    img {
         display: block;
         margin: 0 auto;
     }

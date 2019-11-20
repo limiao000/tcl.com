@@ -23,6 +23,7 @@ b {
 
 a {
   text-decoration: none;
+  color: #999;
 }
 
 .left {
@@ -192,27 +193,6 @@ header .left > li > a:hover {
   margin-left: 50px;
 }
 
-.product {
-  width: 100%;
-  height: 700px;
-  background: #fff;
-  position: relative;
-}
-
-.product-1 {
-  width: 1200px;
-  margin: 0 auto;
-  height: 50px;
-}
-
-.product-2 {
-  float: right;
-  position: absolute;
-  top: 100px;
-  right: 50px;
-  overflow: hidden;
-}
-
 .purc-item {
   border-bottom: 1px solid #999;
   margin-top: 15px;
@@ -281,28 +261,36 @@ header .left > li > a:hover {
   color: #fff;
 }
 
+.product {
+  width: 100%;
+  height: 700px;
+  background: #fff;
+}
+
+.product-1 {
+  width: 580px;
+  height: 560px;
+  padding-left: 250px;
+}
+
 .product-1 > img {
   width: 440px;
   height: 440px;
-  margin: 0 auto;
-  line-height: 440px;
-  display: block;
   border-bottom: 1px solid #999;
 }
 
 .product-1 > .img-list {
   width: 440px;
   height: 100px;
-  margin-top: 20px;
+  margin: 20px auto;
   text-align: center;
-  padding: 0 20px;
+  padding: 0 60px;
 }
 
 .product-1 > .img-list > li {
   float: left;
   width: 60px;
   height: 60px;
-  border-radius: 0;
   margin: 0 7px;
   cursor: pointer;
   border: 2px solid #ccc;
@@ -312,6 +300,14 @@ header .left > li > a:hover {
 .product-1 > .img-list > li > img {
   width: 60px;
   height: 60px;
+}
+
+.product-2 {
+  float: right;
+  position: absolute;
+  top: 200px;
+  right: 50px;
+  overflow: hidden;
 }
 
 .product > h1 {
@@ -329,17 +325,14 @@ header .left > li > a:hover {
   border: 1px solid #999;
 }
 
-.product-1 li {
-  float: left;
-  margin-top: 10px;
+.details {
+  width: 1500px;
+  padding-left: 600px;
+  color: #666;
 }
 
-.product-1 li :hover {
+.details:hover {
   color: red;
-}
-
-.product-1 :first-child {
-  padding-left: 190px;
 }
 
 .product-1 > li > a {
@@ -348,7 +341,7 @@ header .left > li > a:hover {
 
 .product-pic {
   text-align: center;
-  margin-top: -30px;
+  margin-top: -20px;
 }
 
 .foot-top {

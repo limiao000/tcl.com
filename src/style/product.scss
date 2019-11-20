@@ -24,6 +24,7 @@
     
     a {
         text-decoration: none;
+        color: #999;
     }
     
     .left {
@@ -176,29 +177,6 @@
         }
     }
     
-    .product {
-        width: 100%;
-        height: 700px;
-        background: #fff;
-        position: relative;
-    }
-    
-    .product-1 {
-        width: 1200px;
-        margin: 0 auto;
-        height: 50px;
-        // padding-left: 250px;
-        // overflow: hidden;
-    }
-    
-    .product-2 {
-        float: right;
-        position: absolute;
-        top: 100px;
-        right: 50px;
-        overflow: hidden;
-    }
-    
     .purc-item {
         border-bottom: 1px solid #999;
         margin-top: 15px;
@@ -269,28 +247,46 @@
         color: #fff;
     }
     
+    .product {
+        width: 100%;
+        height: 700px;
+        background: #fff;
+        // position: relative;
+    }
+    
+    .product-1 {
+        // width: 1200px;
+        // margin: 0 auto;
+        // height: 50px;
+        // padding-left: 250px;
+        // overflow: hidden;
+        width: 580px;
+        height: 560px;
+        padding-left: 250px;
+    }
+    
     .product-1>img {
         width: 440px;
         height: 440px;
-        margin: 0 auto;
-        line-height: 440px;
-        display: block;
+        // margin: 0 auto;
+        // line-height: 440px;
+        // display: block;
         border-bottom: 1px solid #999;
     }
     
     .product-1>.img-list {
         width: 440px;
         height: 100px;
-        margin-top: 20px;
+        margin: 20px auto;
         text-align: center;
-        padding: 0 20px;
+        padding: 0 60px;
     }
     
     .product-1>.img-list>li {
         float: left;
         width: 60px;
         height: 60px;
-        border-radius: 0;
+        // border-radius: 0;
         // display: inline-block;
         margin: 0 7px;
         cursor: pointer;
@@ -301,6 +297,14 @@
     .product-1>.img-list>li>img {
         width: 60px;
         height: 60px;
+    }
+    
+    .product-2 {
+        float: right;
+        position: absolute;
+        top: 200px;
+        right: 50px;
+        overflow: hidden;
     }
     
     .product>h1 {
@@ -318,17 +322,12 @@
         border: 1px solid #999;
     }
     
-    .product-1 {
-        li {
-            float: left;
-            margin-top: 10px;
-            // text-align: center;
-             :hover {
-                color: red;
-            }
-        }
-         :first-child {
-            padding-left: 190px;
+    .details {
+        width: 1500px;
+        padding-left: 600px;
+        color: #666;
+        &:hover {
+            color: red
         }
     }
     
@@ -338,7 +337,7 @@
     
     .product-pic {
         text-align: center;
-        margin-top: -30px;
+        margin-top: -20px;
     }
     
     .foot-top {

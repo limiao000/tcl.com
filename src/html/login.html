@@ -6,9 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>TCL用户中心-登录TCL账号</title>
+    <link rel="stylesheet" href="../style/login.css">
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery.md5.js"></script>
+    <script src="../js/lib/login.js"></script>
 </head>
 
 <body>
+    <header class="clear">
+        <div class="logo left">
+            <a href="index1.html"><img src="../images/logo.png" alt=""></a>
+
+        </div>
+
+        <h1 class="left">
+            TCL账号登录
+        </h1>
+    </header>
+    <div class="main">
+        <div class="login-box">
+            <div class="top clear">
+                <span>推荐第三方登录</span>
+                <ul>
+                    <a href="#">
+                        <li class="icon1">
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li class="icon2">
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li class="icon3">
+                        </li>
+                    </a>
+
+                </ul>
+            </div>
+            <!-- <form action="../lib/login.php" method="POST" class="form"> -->
+            <div class="form" id="form">
+                <p>账号密码登录</p>
+                <input type="text" name="userName" id="userName" placeholder="手机号 / 邮箱 / 用户名" maxlength="16" min="6"><br><br>
+                <input type="password" name="userPassword" id="userPassword" placeholder="登录密码" maxlength="16" min="6"><br><br>
+                <input type="submit" id="btn" value="登录">
+            </div>
+
+            <!-- </form> -->
+            <div class="login-bot clear">
+                <a href="#">短信验证登录</a>
+                <a href="register.html">注册TCL账号</a>
+                <a href="#">找回密码</a>
+            </div>
+
+
+        </div>
+    </div>
+    <footer>
+        <p class="foot-nav clear">
+            <a href="#">关于TCL</a>
+            <a href="#">社会责任</a>
+            <a href="#">投资者关系</a>
+            <a href="#">新闻中心</a>
+            <a href="#" style="border: 0">经销商之家</a>
+        </p>
+        <p class="ba">©2010-2016 TCL CORPORATION All Rights Reserved. <a href="#">使用条款</a>TCL集团股份有限公司版权所有 粤ICP备05040863号</p>
+    </footer>
+
+
+
 
 </body>
 

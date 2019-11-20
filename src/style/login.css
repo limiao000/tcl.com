@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+.clear:after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+i,
+b,
+h1 {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 85px;
+}
+
+header .logo {
+  display: inline-block;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 32px;
+  color: #666;
+  line-height: 45px;
+  margin-left: 30px;
+  font-weight: lighter;
+}
+
+.main {
+  position: relative;
+  height: 480px;
+  background: #151e31;
+  background-image: url(../images/dl-back.jpg);
+  background-position: center 0;
+  background-repeat: no-repeat;
+}
+
+.main .login-box {
+  width: 350px;
+  height: 378px;
+  border: 1px solid #ccc;
+  background: #fff;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  margin: 20px 40px 20px;
+}
+
+.main .login-box span {
+  float: left;
+  line-height: 32px;
+  color: #333;
+}
+
+.main .login-box ul li {
+  margin-left: 10px;
+  width: 32px;
+  height: 32px;
+  display: block;
+  float: left;
+}
+
+.icon1 {
+  background: url(../images/QQwx.png);
+  background-position: 0 -84px;
+}
+
+.icon2 {
+  background: url(../images/QQwx.png);
+  background-position: 0 -42px;
+}
+
+.icon3 {
+  background: url(../images/QQwx.png);
+  background-position: 0 0;
+}
+
+.top {
+  padding: 20px 40px;
+  border-bottom: 1px solid #ccc;
+}
+
+.form p {
+  font-size: 18px;
+  color: #333;
+  line-height: 36px;
+  margin-left: 20px;
+}
+
+.form #userName {
+  border: 1px solid #999;
+  padding: 0;
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  text-indent: 50px;
+  font-size: 12px;
+  box-sizing: border-box;
+  margin-left: 20px;
+}
+
+.form #userPassword {
+  border: 1px solid #999;
+  padding: 0;
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  text-indent: 50px;
+  font-size: 12px;
+  box-sizing: border-box;
+  margin-left: 20px;
+}
+
+.form #btn {
+  padding: 0;
+  color: #fff;
+  width: 300px;
+  height: 40px;
+  display: block;
+  cursor: pointer;
+  border: 0;
+  line-height: 40px;
+  text-align: center;
+  background: red;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.login-bot {
+  margin-top: 20px;
+}
+
+.login-bot a {
+  font-size: 14px;
+  color: #333;
+  margin: 16px;
+}
+
+.foot-nav {
+  text-align: center;
+  margin: 20px;
+}
+
+.foot-nav a {
+  margin: 10px;
+  font-size: 12px;
+  color: #666;
+  border-right: 1px solid #ccc;
+  padding-right: 10px;
+}
+
+.ba {
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+}
+
+.ba a {
+  color: #333;
+  padding: 0 6px;
+}

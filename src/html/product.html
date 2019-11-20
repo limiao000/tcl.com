@@ -140,12 +140,8 @@
     <!-- 商品参数 -->
     <div class="nav-2">
         <div class="line"></div>
-        <ul class="product-1">
-            <li><a href="#">产品介绍</a></li>
-            <li><a href="#">规格参数</a></li>
-            <li><a href="#">服务政策</a></li>
+        <h1 class="details">商品详情</h1>
 
-        </ul>
     </div>
     <div class="product-pic">
         <img src="../images/sp1-5.jpg" alt="">
@@ -277,6 +273,29 @@
         </div>
 
     </footer>
+    <script>
+        $(function() {
+            $('#gotop').on('click', function() {
+                $('html,body').animate({
+                    scrollTop: 0
+                }, 500);
+            })
+        });
+    </script>
+    <ul class="fix-nav">
+        <li style="border-bottom: 1px solid #ccc">
+            <a href="javascript:;">
+                <i class="iconfont">&#xe634;</i><br>
+                <span>客服</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;" id="gotop">
+                <i class="iconfont">&#xe634;</i><br>
+                <span>顶部</span>
+            </a>
+        </li>
+    </ul>
 
 </body>
 

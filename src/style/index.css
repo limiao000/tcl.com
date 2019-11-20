@@ -475,7 +475,7 @@ header .left > li > a:hover {
   text-align: center;
 }
 
-.p-pic img.lazy {
+.p-pic img {
   display: block;
   margin: 0 auto;
 }
