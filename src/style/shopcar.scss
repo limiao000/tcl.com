@@ -94,15 +94,41 @@ header {
     }
 }
 
+// .itemlist {
+//     list-style: none;
+//     overflow: hidden;
+// }
+// .itemlist .item {
+//     border: 1px solid #999;
+//     margin: 20px;
+//     overflow: hidden;
+// }
+// .itemlist .item>div {
+//     float: left;
+//     margin: 30px 20px;
+// }
+// .p-img img {
+//     width: 100px;
+// }
+// .p-price,
+// .p-sum {
+//     color: red;
+// }
+// .p-title {
+//     width: 500px;
+//     color: #555;
+//     font-size: 20px;
+// }
 .itemlist {
     list-style: none;
     overflow: hidden;
-    // width: 100%;
-    // height: 100%;
 }
 
+// .item {
+//     padding-top: 10px
+// }
 .itemlist .item {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #999;
     margin: 20px;
     overflow: hidden;
     padding-left: 60px;
@@ -118,8 +144,48 @@ header {
     width: 100px;
 }
 
+.p-num {
+    line-height: 50px;
+}
+
+.SUM {
+    position: absolute;
+    top: 20px;
+    left: 800px;
+    font-size: 25px;
+}
+
+.jian1 {
+    position: absolute;
+    top: 20px;
+    left: 600px;
+    font-size: 25px;
+}
+
+.jian {
+    color: red;
+}
+
+.SUM1 {
+    color: red;
+}
+
+.del,
+.c-box {
+    line-height: 50px;
+}
+
+.p-price,
+.p-sum {
+    color: red;
+    line-height: 50px;
+}
+
 .p-title {
     width: 400px;
+    line-height: 50px;
+    color: #555;
+    font-size: 20px;
 }
 
 .payment {
@@ -135,11 +201,11 @@ header {
         padding: 0;
         color: #fff;
         width: 200px;
-        height: 80px;
+        height: 70px;
         display: block;
         cursor: pointer;
         border: 0;
-        line-height: 40px;
+        line-height: 70px;
         text-align: center;
         background: red;
         font-size: 16px;

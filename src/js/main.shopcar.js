@@ -1,7 +1,8 @@
 require.config({
     paths: {
         jquery: "./jquery.min",
-        shopcar: "./lib/shopcar"
+        shopcar: "./lib/shopcar",
+        cookie: "./lib/cookie"
     },
     shim: {}
 });

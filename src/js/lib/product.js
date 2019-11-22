@@ -47,16 +47,18 @@ define(['jquery', 'cookie'], function($, cookie) {
                         </div>
                         <div class="add">
                             <input class="num" type="number" min="1" max="${res.num}" value="1">
-                            <a href="#">立即购买</a>
-                            <a href="#">加入购物车</a>
+                            <a href="shopcar.html" >立即购买</a>
+                            <a href="shopcar.html" class="add1">加入购物车</a>
+                          
             
                         </div>
                     </div>
                 </div>
                     `;
-                    console.log(tempstr)
+                    // console.log(tempstr)
                     $('.product').append(tempstr);
                     callback && callback(res.id, res.price);
+                    // 选项卡
                     $('.img-list>li>img').on('click', function(ev) {
                         var url = ev.target.src
                         $('.product-1>img')[0].src = url
